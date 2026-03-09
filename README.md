@@ -79,3 +79,105 @@ Após esse processo, o arquivo recuperado deve ser **idêntico ao original e tot
 ---
 
 # 📂 Estrutura do Projeto
+
+
+Descrição dos arquivos:
+
+- **encrypt_decrypt.py** → implementação do algoritmo de cifragem e decifragem
+- **exemplo.jpg** → arquivo original utilizado para teste
+- **exemplo_encrypted.bin** → arquivo criptografado
+- **exemplo_recuperado.jpg** → arquivo restaurado após decifragem
+- **README.md** → documentação do projeto
+
+---
+
+# ⚙️ Requisitos
+
+Para executar o projeto é necessário:
+
+- Python 3.x
+
+Verifique a instalação com:
+
+```bash
+python --version
+
+## ▶️ Como Executar
+
+Execute o programa no terminal:
+
+```bash
+python encrypt_decrypt.py
+```
+
+ou
+
+```bash
+python3 encrypt_decrypt.py
+```
+
+O sistema exibirá o seguinte menu:
+
+```
+1 - Encrypt File
+2 - Decrypt File
+```
+
+---
+
+## 🔐 Exemplo de Criptografia
+
+Entrada no terminal:
+
+```
+Choice: 1
+Key: minhasenha
+Input file: imagem.jpg
+Output file: imagem_encrypted.bin
+```
+
+O arquivo será criptografado.
+
+---
+
+## 🔓 Exemplo de Descriptografia
+
+Entrada no terminal:
+
+```
+Choice: 2
+Key: minhasenha
+Input file: imagem_encrypted.bin
+Output file: imagem_recuperada.jpg
+```
+
+Após a execução, o arquivo recuperado abrirá normalmente.
+
+---
+
+## 🎥 Demonstração
+
+Para validação do projeto foi produzido um vídeo demonstrando:
+
+- Visualização do código fonte
+- Processo de cifragem de uma imagem
+- Processo de decifragem
+- Abertura do arquivo recuperado
+
+Duração máxima: **5 minutos**, conforme solicitado na atividade.
+
+---
+
+## 👨‍💻 Autor
+
+**Bruno Eugênio**
+
+Estudante de Análise e Desenvolvimento de Sistemas.
+
+Projeto desenvolvido para fins acadêmicos.
+
+---
+
+## 📜 Licença
+
+Este projeto foi desenvolvido exclusivamente para fins **educacionais e acadêmicos**.
