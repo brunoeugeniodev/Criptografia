@@ -155,18 +155,6 @@ Após a execução, o arquivo recuperado abrirá normalmente.
 
 ---
 
-## 🎥 Demonstração
-
-Para validação do projeto foi produzido um vídeo demonstrando:
-
-- Visualização do código fonte
-- Processo de cifragem de uma imagem
-- Processo de decifragem
-- Abertura do arquivo recuperado
-
-Duração máxima: **5 minutos**, conforme solicitado na atividade.
-
----
 
 ## 👨‍💻 Autor
 
